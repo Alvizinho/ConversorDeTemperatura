@@ -48,6 +48,8 @@ public class ConversorDeTemperatura {
             }else if(op == 3){
                 System.out.println("\n\t\t\t-- Forte Abraço --\n");
                 
+            }else{
+                System.out.println("\n\t\t\t -- Incorreto, escolha um numero de 1 à 3 -- \n");
             }
         }while(op!=3);
     }
